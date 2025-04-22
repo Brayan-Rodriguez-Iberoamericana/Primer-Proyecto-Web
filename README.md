@@ -23,4 +23,4 @@ Brayan R. — Estudiante de Ingeniería de Software
 
 ## Ver proyecto en línea
 
-[Click aquí para ver el proyecto en GitHub Pages](https://brayan-rodriguez-iberoamericana.github.io/mi-primer-proyecto-br/)
+[Click aquí para ver el proyecto en GitHub Pages](https://brayan-rodriguez-iberoamericana.github.io/Primer-Proyecto-Web/)
