@@ -1,0 +1,95 @@
+  /* Fuente general */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #82e69085;
+    color: #744613;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #0d6efd;
+    color: white;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Títulos */
+  h1, h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  /* Secciones */
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  /* Miniaturas de galería */
+  #imagenesContainer .card {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  #imagenesContainer .card:hover {
+    transform: scale(1.03);
+  }
+  
+  #imagenesContainer img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Detalle de imagen */
+  #detalle .card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+  }
+  
+  #detalle img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    max-height: 400px;
+    width: 100%;
+  }
+  
+  /* Formulario de contacto */
+  form input,
+  form textarea {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    width: 100%;
+  }
+  
+  form button {
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #0b5ed7;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0d6efd;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
